@@ -1,0 +1,51 @@
+div.img-container {
+	width: 100%;
+	height: 100vh;
+	div {
+		position: absolute;
+	    top: 60vh;
+	    color: white;
+	    display: block;
+	}
+}
+
+div.img-container.small {
+	height: 70vh;
+	h1, h2, h3, h4, {
+	  	position: relative;
+ 		top: 50%;
+ 		color: white;
+ 		@include respond(mobile) {
+ 			top: 10em;
+ 		}
+ 	}
+}
+
+.landing {
+	background: url(../../img/landscape.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.work {
+	background: url(../../img/naples.jpg) no-repeat right;
+	background-size: cover;
+}
+
+.contact {
+	background: url(../../img/scotland.jpg) no-repeat right;
+	background-size: cover;
+}
+
+.portrait-container {
+	width: 10em;
+  	height: 10em;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+	margin-right: 2em;
+	img {
+		width: 100%;
+		height: auto;
+	}
+}

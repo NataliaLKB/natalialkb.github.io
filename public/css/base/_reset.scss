@@ -1,0 +1,48 @@
+html, body {
+	font-family: $primary-font;
+	font-size: 0.9em;
+	width: 100%;
+}
+
+div {
+	width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	letter-spacing: 0.2em;
+	font-size: 100%;
+}
+
+p {
+	font-weight: 200;
+	letter-spacing: 0.2em;
+}
+
+h1 {
+	@include title(3em);
+	&:first-letter {
+		font-size: 1.2em;
+	}
+}
+
+h2 {
+	@include title(2em);
+}
+
+h3 {
+	font-size: 1.6em;	
+}
+
+h4 {
+	font-size: 1.4em;	
+}
+
+h5 {
+	font-size: 1.1em;
+	line-height: 1.6em;
+  	letter-spacing: 0.1em;
+}
+
+h6 {
+	font-size: 1em;
+}

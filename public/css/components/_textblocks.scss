@@ -1,0 +1,18 @@
+// for text over an image
+.float {
+	position: absolute;
+    top: 60%;
+    color: white;
+    display: block;
+}
+
+//TODO: find a better place for this.
+hr {
+	width: 32em;
+	margin: 0 auto;
+}
+
+.text-block {
+	background: white;
+	padding: 5em 10%;
+}

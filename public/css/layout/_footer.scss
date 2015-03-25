@@ -1,0 +1,25 @@
+footer {
+	background-color: $charcoal;
+	height: 10em;
+	position: relative;
+	@include respond(tablet) {
+		height: 15em;
+	}
+}
+
+.icon-container {
+	padding: 0 10%;
+	img {
+		width: 3em;
+		margin: 3.5em 1em;
+	}
+	h1, h2, h3, h4, h5, h6, p {
+		color: white;
+		display: inline-block;
+		float: right;
+		padding-top: 7em;
+		@include respond(tablet) {
+			padding-top: 1em;
+		}
+	}
+}
