@@ -1,14 +1,20 @@
 doctype
-html
+html(lang="en")
   head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+
+    title #{title}
+
     link(rel="stylesheet" href="./css/vendors/lemonade-2.1/css/lemonade.min.css")
     link(rel="stylesheet" href="./css/main.css")
-    title #{title}
+    link(rel="icon" type="image/png" href="./img/nfavicon.png")
   body
     != partial("_templates/landing")
     != partial("_templates/introduction")
-    != partial("_templates/portfolio")
     != partial("_templates/blog")
+    != partial("_templates/work")
     //- != yield
     != partial("_templates/contact")
     footer

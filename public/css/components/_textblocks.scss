@@ -10,6 +10,9 @@
 hr {
 	width: 32em;
 	margin: 0 auto;
+	@include respond(mobile) {
+		width: 20em;
+	}
 }
 
 .text-block {

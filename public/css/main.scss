@@ -5,12 +5,12 @@
 ************************************************/
 
 @import 		
+		"helpers/basicmixins",
+		"helpers/mobilemixins",
+
 		"base/colours",
 		"base/typography",
 		"base/reset",
-
-		"helpers/basicmixins",
-		"helpers/mobilemixins",
 		
 		"components/buttons",
 		"components/forms",

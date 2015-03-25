@@ -1,8 +1,10 @@
 div(class="icon-container")
-	img(src="./img/icons/email.png")
-	img(src="./img/icons/twitter.png")
-	img(src="./img/icons/linkedin.png")
-	img(src="./img/icons/github.png")
-
-
-	p Images, content, design, and development by Natalia Baltazar
+	a(href="mailto:#{contact.email}")
+		img(src="./img/icons/email.png")
+	a(href="#{contact.twitter}" target="_blank")
+		img(src="./img/icons/twitter.png")
+	a(href="#{contact.linkedin}" target="_blank")
+		img(src="./img/icons/linkedin.png")
+	a(href="#{contact.github}" target="_blank")
+		img(src="./img/icons/github.png")
+h6 Images, content, design, and development by Natalia Baltazar

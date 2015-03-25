@@ -3,7 +3,7 @@ div.img-container {
 	height: 100vh;
 	div {
 		position: absolute;
-	    top: 60vh;
+	    top: 65vh;
 	    color: white;
 	    display: block;
 	}
@@ -22,17 +22,23 @@ div.img-container.small {
 }
 
 .landing {
-	background: url(../../img/landscape.jpg) no-repeat center;
+	background: url(../../img/landscapes/salina.jpg) no-repeat center;
 	background-size: cover;
 }
 
+.blog {
+	background: url(../../img/landscapes/naples.jpg) no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
 .work {
-	background: url(../../img/naples.jpg) no-repeat right;
+	background: url(../../img/landscapes/work.jpg) no-repeat right;
 	background-size: cover;
 }
 
 .contact {
-	background: url(../../img/scotland.jpg) no-repeat right;
+	background: url(../../img/landscapes/isleofskye.jpg) no-repeat right;
 	background-size: cover;
 }
 
