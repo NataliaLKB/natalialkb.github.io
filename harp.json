@@ -1,0 +1,14 @@
+{
+	"globals": {
+		"title": "Natalia Baltazar's personal website",
+		"name": "Natalia Baltazar",
+		"profession": "Web Developer",
+		"url": "nataliabaltazar.me",
+		"contact": {
+			"email": "natalialeebaltazar@gmail.com",
+			"twitter": "https://twitter.com/NataliaLKB",
+			"linkedin": "https://uk.linkedin.com/pub/natalia-baltazar/59/511/310",
+			"github": "https://github.com/NataliaLKB"
+		}
+	}
+}
