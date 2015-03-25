@@ -4,7 +4,6 @@ div.img-container {
 	div {
 		position: absolute;
 	    top: 65vh;
-	    color: white;
 	    display: block;
 	}
 }
@@ -14,7 +13,6 @@ div.img-container.small {
 	h1, h2, h3, h4, {
 	  	position: relative;
  		top: 50%;
- 		color: white;
  		@include respond(mobile) {
  			top: 10em;
  		}
@@ -24,22 +22,26 @@ div.img-container.small {
 .landing {
 	background: url(../../img/landscapes/salina.jpg) no-repeat center;
 	background-size: cover;
+	color: white;
 }
 
 .blog {
 	background: url(../../img/landscapes/naples.jpg) no-repeat;
 	background-size: cover;
 	background-position: center top;
+	color: $grey;
 }
 
 .work {
 	background: url(../../img/landscapes/work.jpg) no-repeat right;
 	background-size: cover;
+	color: white;
 }
 
 .contact {
 	background: url(../../img/landscapes/isleofskye.jpg) no-repeat right;
 	background-size: cover;
+	color: white;
 }
 
 .portrait-container {
