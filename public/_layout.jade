@@ -1,0 +1,15 @@
+doctype
+html
+  head
+    link(rel="stylesheet" href="./css/vendors/lemonade-2.1/css/lemonade.min.css")
+    link(rel="stylesheet" href="./css/main.css")
+    title #{title}
+  body
+    != partial("_templates/landing")
+    != partial("_templates/introduction")
+    != partial("_templates/portfolio")
+    != partial("_templates/blog")
+    //- != yield
+    != partial("_templates/contact")
+    footer
+        != partial("_templates/footer")
