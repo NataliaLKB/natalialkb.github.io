@@ -1,4 +1,4 @@
-# [nataliabaltazar.me](nataliabaltazar.me)
+# [nataliabaltazar.me](http://nataliabaltazar.me)
 
 site in progress...
 
